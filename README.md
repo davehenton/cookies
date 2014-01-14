@@ -2,6 +2,10 @@
  
 ##Learning Competencies 
 
+* Create well-defined classes with a single responsibility
+* Implement clean and flexible interfaces between objects
+* Use composition to give structure to more complex objects
+
 ##Summary 
 
  **I <3 Cookies** is a bakery that makes delicious cookies.  They are growing rapidly, and they need some software to help them manage their kitchen.
@@ -14,17 +18,9 @@ Your job is to build a program that will help them manage their cookie baking.  
   
 The point of this challenge is to exercise your object-oriented design muscles.  Are you up for it?
 
-**Resource:** Here's a [video](http://shereef.wistia.com/medias/cbb6172797) of Shereef going over Objects and Classes on June 18, 2012.
+##Releases
 
-## Learning Goals
-
-- Creating well-defined classes with a single responsibility
-- Implementing clean and flexible interfaces between objects
-- Using composition to give structure to more complex objects
-
-## Objectives
-
-### Design the structure
+###Release 0 :Design the structure
 
 Think about this problem critically before you even begin to write code and describe how you would design the program in plain English.
         
@@ -36,20 +32,20 @@ At the very least, consider these questions in your answer:
 - How will the classes interact with each other?
 - Which classes will inherit from others, if any?
 
-### Step 1: MVP
+
 
 Implement a minimum viable product.  
 
 It does not need to track multiple types of cookies, but you should be able to move cookies into and out of an oven.
 
-### Step 2: Additional Features
+###Release 1 : Additional Features
 
 Add more features to your program.
       
 - Multiple types of cookies, each with a different baking time
 - Status attribute for cookies, with at least these possible values: `:doughy`, `:almost_ready`, `:ready`, `:burned`
 
-### Step 3: Refactor
+###Release 2 : Refactor
 
 Take a step back and look at the code you've produced.  Run through a checklist to see if you are following the principles of object-oriented design:
         
@@ -71,13 +67,12 @@ The Law of Demeter can be summarized as follows:
       
 Read [Avdi Grimm's post](http://devblog.avdi.org/2011/07/05/demeter-its-not-just-a-good-idea-its-the-law/) for a more thorough explanation.
 
-### Get Creative!
+###Release 3 : Get Creative!
 
 Put yourself in the baker's shoes, and imagine what other features you might like to have.  Then pick the most useful and feasible one and build it out. 
 
-##Releases
-###Release 0 
-
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
+
+* Here's a [video](http://shereef.wistia.com/medias/cbb6172797) of Shereef going over Objects and Classes on June 18, 2012.
