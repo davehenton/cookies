@@ -36,7 +36,7 @@ At the very least, consider these questions in your answer:
 
 Implement a minimum viable product.  
 
-It does not need to track multiple types of cookies, but you should be able to move cookies into and out of an oven.
+It does not need to track multiple types of cookies, but you should be able to move cookies into and out of an oven.  This would be a great time to write some tests in the RSpec file that show how you'd _like_ your classes to work, and then get them all to pass!
 
 ###Release 1 : Additional Features
 
@@ -44,6 +44,8 @@ Add more features to your program.
       
 - Multiple types of cookies, each with a different baking time
 - Status attribute for cookies, with at least these possible values: `:doughy`, `:almost_ready`, `:ready`, `:burned`
+
+Don't forget to write more tests for this release.
 
 ###Release 2 : Refactor
 
