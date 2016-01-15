@@ -59,9 +59,10 @@ Refactoring is an important part of development.  Take a step back and look at t
 ### Release 3: Get Creative!
 Put ourselves in a baker's shoes and imagine what other features we might like to have.  Pick the most useful and feasible feature and build it out. 
 
-<!-- ##Optimize Your Learning  -->
 
-##Resources
+## Conclusion
+In this challenge we've created small, single-responsibility objects and composed them to meet the needs of our application.  Designing objects that encapsulate their own states and behaviors while being able to interact with other types of objects is critical to object-oriented design.
+
 
 [avdi grimm lod]: http://en.wikipedia.org/wiki/Law_of_Demeter
 [objects and classes video]: http://shereef.wistia.com/medias/cbb6172797
