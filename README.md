@@ -50,6 +50,7 @@ Our MVP was a success, so we're going to expand the program, adding some new fea
 Refactoring is an important part of development.  Take a step back and look at the code we've produced.  Is it of good quality?  In addition to the guidelines presented in the *Summary*, here's a checklist of object-oriented design considerations.
 
 - Are we exposing more of an object's state and behavior than necessary?
+- Have we limited what any one object in our program knows about the other types (i.e., limited dependencies)?
 - Do we repeat the same logic throughout our code, or is it DRY (don't repeat yourself)?
 - Are we following the *Law of Demeter* and limiting the types of objects to which our objects send messages? ([Wikipedia][wikipedia lod], [Avdi Grimm][avdi grimm lod])
 - Are our classes orthogonal? ([Stack Overflow][stack overflow orthogonal])
