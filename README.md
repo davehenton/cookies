@@ -1,22 +1,24 @@
 # Cookies And Ovens: Model a Bakery 
  
-##Learning Competencies 
+## Summary  
+*I <3 Cookies* is a bakery specializing in delicious cookies.  The bakery is growing rapidly and is having trouble keeping up with demand.  Some bakery management software should do the trick.  Our job is to build a program that will help them manage the bakery.
 
-* Create well-defined classes with a single responsibility
-* Implement clean and flexible interfaces between objects
-* Use composition to give structure to more complex objects
-
-##Summary 
-
- **I <3 Cookies** is a bakery that makes delicious cookies.  They are growing rapidly, and they need some software to help them manage their kitchen.
-  
-Your job is to build a program that will help them manage their cookie baking.  Here are a few user stories to help get you started:
+Here are a few user stories to help get us started:
     
 - As a baker, I want to make different types of cookies (peanut butter, chocolate chip, etc.).
 - As a baker, I want to place batches of cookies in an oven.
 - As a baker, I want to know when a batch of cookies is ready to be removed from the oven.
-  
-The point of this challenge is to exercise your object-oriented design muscles.  Are you up for it?
+
+
+### Object-oriented Design
+The point of this challenge is to exercise our object-oriented design muscles.  Are we up for it?  Here are some guidelines we should follow.
+
+* Create well-defined classes with a single responsibility.
+* Implement clean and flexible interfaces between objects.
+* Use composition to give structure to more complex objects.
+
+*Note:* If a refresher on objects is in order, here's a video from Dev Bootcamp days of yesteryear: DBC founder Shereef Bishay going over [Objects and Classes][objects and classes video] from June 18, 2012.
+
 
 ##Releases
 
@@ -77,4 +79,7 @@ Put yourself in the baker's shoes, and imagine what other features you might lik
 
 ##Resources
 
-* Here's a [video](http://shereef.wistia.com/medias/cbb6172797) of Shereef going over Objects and Classes on June 18, 2012.
+[objects and classes video]: http://shereef.wistia.com/medias/cbb6172797
+
+
+
