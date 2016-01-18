@@ -64,7 +64,7 @@ Put ourselves in a baker's shoes and imagine what other features we might like t
 In this challenge we've created small, single-responsibility objects and composed them to meet the needs of our application.  Designing objects that encapsulate their own states and behaviors while being able to interact with other types of objects is critical to object-oriented design.
 
 
-[avdi grimm lod]: http://en.wikipedia.org/wiki/Law_of_Demeter
+[avdi grimm lod]: http://devblog.avdi.org/2011/07/05/demeter-its-not-just-a-good-idea-its-the-law/
 [objects and classes video]: http://shereef.wistia.com/medias/cbb6172797
 [stack overflow orthogonal]: http://stackoverflow.com/a/1527430
 [wikipedia lod]: http://en.wikipedia.org/wiki/Law_of_Demeter
