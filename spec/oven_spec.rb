@@ -1,7 +1,7 @@
-require 'simplecov'
-SimpleCov.start
 require_relative '../cookie'
 require_relative '../oven'
+require 'simplecov'
+SimpleCov.start
 
 describe Oven do
   let(:cookie) { Cookie.new("chocolate chip") }
