@@ -1,5 +1,5 @@
 require_relative "../cookie"
-
+ls
 describe Cookie do
   let(:cookie) { Cookie.new("chocolate chip") }
 
@@ -17,3 +17,7 @@ describe Cookie do
 
 
 end
+
+
+FIXME
+DEBUG
