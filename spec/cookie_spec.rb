@@ -1,3 +1,5 @@
+require 'simplecov'
+SimpleCov.start
 require_relative "../cookie"
 
 describe Cookie do

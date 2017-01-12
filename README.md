@@ -1,10 +1,10 @@
-# Cookies And Ovens: Model a Bakery 
- 
+# Cookies And Ovens: Model a Bakery
+
 ## Summary  
 *I <3 Cookies* is a bakery specializing in delicious cookies.  The bakery is growing rapidly and is having trouble keeping up with demand.  Some bakery management software should do the trick.  Our job is to build a program that will help them manage the bakery.
 
 Here are a few user stories to help get us started:
-    
+
 - As a baker, I want to make different types of cookies (peanut butter, chocolate chip, etc.).
 - As a baker, I want to place batches of cookies in an oven.
 - As a baker, I want to know when a batch of cookies is ready to be removed from the oven.
@@ -23,12 +23,15 @@ The point of this challenge is to exercise our object-oriented design muscles.  
 ## Releases
 ### Pre-release: Understand the Problem
 Before we begin to write code, we need to think critically about this problem and describe in plain English how to design the program.  At the very least, consider these questions.
-        
+
 - What are essential classes?
 - What attributes will each class have?
 - What interface will each class provide?
 - How will the classes interact with each other?
 - Does inheritance make sense?
+
+
+FIXME
 
 
 ### Release 0:  Implement a Minimum Viable Product
@@ -57,7 +60,7 @@ Refactoring is an important part of development.  Take a step back and look at t
 
 
 ### Release 3: Get Creative!
-Put ourselves in a baker's shoes and imagine what other features we might like to have.  Pick the most useful and feasible feature and build it out. 
+Put ourselves in a baker's shoes and imagine what other features we might like to have.  Pick the most useful and feasible feature and build it out.
 
 
 ## Conclusion
@@ -68,6 +71,3 @@ In this challenge we've created small, single-responsibility objects and compose
 [objects and classes video]: http://shereef.wistia.com/medias/cbb6172797
 [stack overflow orthogonal]: http://stackoverflow.com/a/1527430
 [wikipedia lod]: http://en.wikipedia.org/wiki/Law_of_Demeter
-
-
-
