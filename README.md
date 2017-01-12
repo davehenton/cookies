@@ -32,6 +32,8 @@ Before we begin to write code, we need to think critically about this problem an
 
 
 FIXME
+FIXME
+DEBUG
 
 
 ### Release 0:  Implement a Minimum Viable Product
