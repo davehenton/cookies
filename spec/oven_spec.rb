@@ -1,11 +1,9 @@
 require 'simplecov'
-<<<<<<< HEAD
-SimpleCov.start do
-  add_filter "../oven.rb"
-end
-=======
+
 SimpleCov.start
->>>>>>> 65b7de44d40cd872ddcce2b5e817d9694bcd6114
+
+
+
 require_relative '../cookie'
 require_relative '../oven'
 
