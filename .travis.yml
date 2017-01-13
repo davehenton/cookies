@@ -1,8 +1,13 @@
 language: ruby
-
+rvm:
+ - "2.2"
+ - jruby
+ - rbx-2
  addons:
   code_climate:
     repo_token: 79fc565618e184940308cf086214ba65bd801e62866eb9d30cabee6a41e6a71a
-
+# regular test configuration
 after_success:
   - bundle exec codeclimate-test-reporter
+# uncomment and edit the following line if your project needs to run something other than `rake`:
+# script: bundle exec rspec spec
