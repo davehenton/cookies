@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/davehenton/cookies.svg?branch=master)](https://travis-ci.org/davehenton/cookies)
+
 # Cookies And Ovens: Model a Bakery
 
 ## Summary  
