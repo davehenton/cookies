@@ -28,4 +28,11 @@ class Oven
   def cookie_status
     @cookie_batch.each { |cookie| puts "#{cookie.type} is #{cookie.baked}" }
   end
+
+  def cookie_status
+    @cookie_batch.each { |cookie| puts "#{cookie.type} is #{cookie.baked}" }
+  end
 end
+
+FIX ME
+FIXME
