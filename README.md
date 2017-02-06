@@ -10,4 +10,6 @@
 FIXME
 Cookies. A sandbox app for incorporating Code Climate into a Travis CI build.
 
-Add dummy text line 13. 
+Add dummy text line 13.
+
+Add dummy text line 15.
