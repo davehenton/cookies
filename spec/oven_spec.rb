@@ -32,23 +32,23 @@ describe Oven do
   #   expect(cookie.baked).to eq :almost_ready
   # end
 
-  # context "optional adjustment of cook time" do
-  #   let(:slow_bake_cookie) {Cookie.new("m&m", 30)}
-  #   let(:slow_cook_batch) {Oven.new([slow_bake_cookie])}
-  #
-  #   it 'will accept an optional adjustment of the optimum bake time' do
-  #     slow_cook_batch.bake_cookies(30)
-  #     expect(slow_bake_cookie.baked).to eq :ready
-  #   end
-  #
-  #   it 'will burn the cookie if baked too long' do
-  #     slow_cook_batch.bake_cookies(35)
-  #     expect(slow_bake_cookie.baked).to eq :burned
-  #   end
-  #
-  #   it 'will not be ready if optimum bake time has not been reached' do
-  #     slow_cook_batch.bake_cookies(20)
-  #     expect(slow_bake_cookie.baked).to eq :almost_ready
-  #   end
+  context "optional adjustment of cook time" do
+    let(:slow_bake_cookie) {Cookie.new("m&m", 30)}
+    let(:slow_cook_batch) {Oven.new([slow_bake_cookie])}
+
+    it 'will accept an optional adjustment of the optimum bake time' do
+      slow_cook_batch.bake_cookies(30)
+      expect(slow_bake_cookie.baked).to eq :ready
+    end
+
+    it 'will burn the cookie if baked too long' do
+      slow_cook_batch.bake_cookies(35)
+      expect(slow_bake_cookie.baked).to eq :burned
+    end
+
+    it 'will not be ready if optimum bake time has not been reached' do
+      slow_cook_batch.bake_cookies(20)
+      expect(slow_bake_cookie.baked).to eq :almost_ready
+    end
   end
 end
