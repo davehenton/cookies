@@ -7,7 +7,7 @@
 
 <a href="https://codeclimate.com/github/davehenton/cookies"><img src="https://codeclimate.com/github/davehenton/cookies/badges/issue_count.svg" /></a>
 
-FIXME
+
 Cookies. A sandbox app for incorporating Code Climate into a Travis CI build.
 
 
