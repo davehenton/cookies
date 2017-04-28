@@ -1,6 +1,19 @@
 engines:
   rubocop:
     enabled: true
+    checks:
+      Rubocop/Metrics/CyclomaticComplexity:
+      enabled: true
+      Rubocop/Metrics/ParameterLists:
+      enabled: true
+      Rubocop/Cop/TooManyLines:
+      enabled: true
+      Rubocop/Metrics/ClassLength:
+      enabled: true
+  brakeman:
+    enabled: true
+  bundler-audit:
+    enabled: true
   golint:
     enabled: false
   gofmt:
@@ -15,7 +28,6 @@ engines:
       languages:
       - ruby:
       - javascript:
-
 
 ratings:
    paths:
