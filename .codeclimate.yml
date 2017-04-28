@@ -11,7 +11,7 @@ engines:
         Rubocop/Metrics/ClassLength:
           enabled: true
   brakeman:
-    enabled: true
+    enabled: false
   bundler-audit:
     enabled: true
   golint:
