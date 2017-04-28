@@ -3,10 +3,13 @@ engines:
     enabled: true
     checks:
         Rubocop/Metrics/CyclomaticComplexity:
+          enabled: true
         Rubocop/Metrics/ParameterLists:
+          enabled: true
         Rubocop/Cop/TooManyLines:
+          enabled: true
         Rubocop/Metrics/ClassLength:
-        enabled: true
+          enabled: true
   brakeman:
     enabled: true
   bundler-audit:
