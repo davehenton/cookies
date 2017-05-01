@@ -1,0 +1,52 @@
+engines:
+  rubocop:
+    enabled: true
+    checks:
+        Rubocop/Metrics/CyclomaticComplexity:
+          enabled: true
+        Rubocop/Metrics/ParameterLists:
+          enabled: true
+        Rubocop/Cop/TooManyLines:
+          enabled: true
+        Rubocop/Metrics/ClassLength:
+          enabled: true
+  eslint:
+    enabled: true
+    checks:
+      complexity:
+        enabled: true
+      max-depth:
+        enabled: true
+      max-params:
+        enabled: true
+      max-lines:
+        enabled: true
+  brakeman:
+    enabled: false
+  bundler-audit:
+    enabled: true
+  golint:
+    enabled: false
+  gofmt:
+    enabled: true
+  eslint:
+    enabled: false
+  csslint:
+    enabled: false
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby:
+      - javascript:
+
+ratings:
+   paths:
+   - app/**
+   - lib/**
+   - "**.rb"
+   - "**.go"
+
+exclude_paths:
+  - spec/**/*
+  - vendor/**/*
