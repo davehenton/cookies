@@ -10,6 +10,17 @@ engines:
           enabled: true
         Rubocop/Metrics/ClassLength:
           enabled: true
+  eslint:
+    enabled: true
+    checks:
+      complexity:
+        enabled: true
+      max-depth:
+        enabled: true
+      max-params:
+        enabled: true
+      max-lines:
+        enabled: true
   brakeman:
     enabled: true
   bundler-audit:
