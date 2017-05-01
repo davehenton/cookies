@@ -46,6 +46,7 @@ ratings:
    - lib/**
    - "**.rb"
    - "**.go"
+   - "**.js"
 
 exclude_paths:
   - spec/**/*
