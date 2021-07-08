@@ -12,25 +12,25 @@ describe Oven do
   let(:cookie) { Cookie.new("chocolate chip") }
   let(:batch) {Oven.new([cookie])}
 
-  it "can bake uncooked cookies" do
-    expect{batch.bake_cookies(15)}.to change {cookie.baked}
-  end
-
-  it "can check if all cookies are done" do
-    expect(batch.cookies_done?).to eq false
-    batch.bake_cookies(15)
-    expect(batch.cookies_done?).to eq true
-  end
-
-  it "will burn cookies cooked too long" do
-    batch.bake_cookies(20)
-    expect(cookie.baked).to eq :burned
-  end
-
-  it "cookie will not be ready if not cooked long enough" do
-    batch.bake_cookies(10)
-    expect(cookie.baked).to eq :almost_ready
-  end
+  # it "can bake uncooked cookies" do
+  #   expect{batch.bake_cookies(15)}.to change {cookie.baked}
+  # end
+  #
+  # it "can check if all cookies are done" do
+  #   expect(batch.cookies_done?).to eq false
+  #   batch.bake_cookies(15)
+  #   expect(batch.cookies_done?).to eq true
+  # end
+  #
+  # it "will burn cookies cooked too long" do
+  #   batch.bake_cookies(20)
+  #   expect(cookie.baked).to eq :burned
+  # end
+  #
+  # it "cookie will not be ready if not cooked long enough" do
+  #   batch.bake_cookies(10)
+  #   expect(cookie.baked).to eq :almost_ready
+  # end
 
   context "optional adjustment of cook time" do
     let(:slow_bake_cookie) {Cookie.new("m&m", 30)}
